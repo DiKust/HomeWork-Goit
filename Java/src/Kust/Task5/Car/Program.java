@@ -9,7 +9,8 @@ public class Program {
         CarWheel carWheel = new CarWheel();
         carWheel.show();
 
-
+        Car car = new Car();
+        car.show();
     }
 
 }
