@@ -2,10 +2,14 @@ package Kust.Task7.MP3;
 
 public class Playlist extends MP3 {
 
+    private String[] playList;
 
-    public void Playlist(){
-       String[] Playlist = { "The best song", "Good song", "Super Song"};
+
+    public Playlist(int price) {
+        super(price);
     }
+
+
 
     public void playAllSong(){
         System.out.print("Playing: ");
